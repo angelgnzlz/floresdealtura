@@ -246,30 +246,35 @@ header {
 .element-shop {
     width: 45%;
     height: 22rem;
-    background-color: #a3a3a3;
     position: relative;
-    border-radius: 2rem;
+    border-radius: 0.7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid #9891c473 0.3rem;
+    cursor: pointer;
+}
+
+.element-shop:hover {
+    border: solid 0.3rem #9891c4;
 }
 
 .product-img-container {
     width: 100%;
     height: 58%;
-    border-radius: 2rem;
+    border-radius: 0.2rem;
 }
 
 .product-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 2rem 2rem 0 0;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .cart-icon {
+    color: white;
     margin-left: 0.05rem;
-    transform: scale(1.2);
 }
 
 .button-addtocart {
@@ -281,12 +286,12 @@ header {
     height: 3rem;
     width: 3rem;
     border: none;
-    border-radius: 1.4rem;
-    background-color: #6c63a0;
+    border-radius: 0.4rem;
+    background-color: #746ea0;
 }
 
 .button-addtocart:hover {
-    background-color: #6c63a0;
+    background-color: #cfcfcf;
 }
 
 .button-addtocart:active {
@@ -297,23 +302,23 @@ header {
     flex-direction: column;
     padding: 0.6rem 0;
     position: absolute;
-    bottom: 0;
+    bottom: -0.1rem;
     background-color: #f4f4f4;
     width: 100%;
-    height: 42%;
-    border-radius: 0rem 0rem 2rem 2rem;
+    height: 42.5%;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
 }
 
 .card-content-title {
     font-family: 'Fraunces', serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: #6c63a0;
     margin: 0 0 0.35rem 0.6rem;
 }
 
 .card-content-description{
     margin-left: 1rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'Montserrat';
 }
 
@@ -330,7 +335,7 @@ header {
 
 .current-price{
     font-family: 'Fraunces';
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #6c63a0;
     text-shadow: white 0 0 1rem;
 }
