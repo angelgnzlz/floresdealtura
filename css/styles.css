@@ -338,7 +338,7 @@ header {
 .old-price {
     margin-left: 0.4rem;
     font-family: 'Hammersmith One', sans-serif;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     text-decoration: line-through;
     color: #303030;
 }
