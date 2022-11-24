@@ -244,8 +244,8 @@ header {
 }
 
 .element-shop {
-    width: 47.5%;
-    height: 24rem;
+    width: 48%;
+    height: 30rem;
     position: relative;
     border-radius: 0.7rem;
     display: flex;
@@ -267,6 +267,7 @@ header {
 }
 
 .cart-icon {
+    font-size: 1.6rem;
     color: white;
     margin-left: 0.05rem;
 }
@@ -277,8 +278,8 @@ header {
     justify-content: center;
 
     cursor: pointer;
-    height: 2.75rem;
-    width: 3.5rem;
+    height: 3rem;
+    width: 4rem;
     border: none;
     border-radius: 2rem;
     background-color: #746ea0;
@@ -304,8 +305,9 @@ header {
 
 .card-content-title {
     padding: 0.25rem 0 0.1rem 0.75rem;
-    font-family: 'Hammersmith One', sans-serif;
-    font-weight: 400;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
     color: #877dc0;
 }
 
@@ -328,7 +330,7 @@ header {
 
 .current-price{
     font-family: 'Hammersmith One', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #6c63a0;
     text-shadow: white 0 0 1rem;
 }
