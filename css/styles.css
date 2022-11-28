@@ -21,7 +21,7 @@ header {
 
 .logo-container {
     background-color: #fff;
-    width: 42rem;
+    width: 43rem;
     height: 7rem;
     border-right: 0.1rem solid #f1f1f1;   
 }
@@ -247,12 +247,12 @@ header {
     width: 48%;
     height: 30rem;
     position: relative;
-    border-radius: 0.7rem;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: solid #746ea0 0.75rem;
-    border-bottom: solid #e4e4e4 0.75rem;
+    border-top: solid #9d97cf 0.75rem;
+    border-bottom: solid #c3bee7 0.75rem;
 }
 
 .product-img-container {
@@ -341,4 +341,25 @@ header {
     font-size: 0.8rem;
     text-decoration: line-through;
     color: #303030;
+}
+
+.pie{
+    padding: 2rem;
+    background-color: #6c63a0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.pie p{
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
+.title-aboutus {
+    font-size: 1.6rem;
+    margin-bottom:1rem;
+}
+
+.cita {
+    font-size: 1.3rem;
 }
