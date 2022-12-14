@@ -127,11 +127,11 @@ header {
 }
 
 .header-button{
-    background-color: #f4f4f4;
+    background-color: transparent;
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 5rem;
-    border: none;
+    border: solid #6c63a0 2px;
     cursor: pointer;
 }
 
@@ -168,7 +168,7 @@ header {
     z-index: 1;
     width: 100%;
     height: 100%;
-    opacity: 35%;
+    opacity: 17.5%;
 }
 
 .main-title {
@@ -232,7 +232,8 @@ header {
     margin: 0 1rem;
     height: 5rem;
     background-color: #847ac2;
-    border-radius: 1.2rem;
+    border-radius: 5rem;
+    padding: 0 1.5rem;
 }
 
 .category-title {
@@ -260,7 +261,7 @@ header {
     width: 100%;
     height: 18rem;
     object-fit: cover;
-    border-radius: 1rem;
+    border-radius: 1.75rem;
 }
 
 .card-bot {
@@ -284,7 +285,7 @@ header {
     height: 3rem;
     width: 100%;
     border: solid #746ea0 0.2rem;
-    border-radius: 1rem;
+    border-radius: 2.5rem;
     background-color: transparent;
 }
 
