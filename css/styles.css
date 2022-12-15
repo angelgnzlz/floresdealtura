@@ -97,7 +97,7 @@ header {
     right: -2rem;
 
     border-radius: 1.25rem;
-    background-color: #e9e9ed
+    background-color: #f3f3f3;
 }
 
 .popup-container::before {
@@ -108,7 +108,7 @@ header {
     margin-left: 2.3rem;
     border-width: 1.5rem;
     border-style: solid;
-    border-color: transparent transparent #e9e9ed
+    border-color: transparent transparent #f3f3f3;
     
 }
 
@@ -118,12 +118,12 @@ header {
 
 .fa-basket-shopping{
     font-size: 2rem;
-    color: #6c63a0;
+    color: white;
 }
 
 .fa-user {
     font-size: 2rem;
-    color: #6c63a0;
+    color: white;
 }
 
 .header-button{
@@ -131,16 +131,17 @@ header {
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 5rem;
-    border: solid #6c63a0 2px;
     cursor: pointer;
+    background-color: #978fca;
+    border: none;
 }
 
 .header-button:hover{
-    background-color: #e7e7e7;
+    background-color: #f0bb5a;
 }
 
 .header-button:active {
-    background-color: #a3a3a3;
+    background-color: #f1b441;
 }
 
 /* MAIN SECTION */
@@ -202,8 +203,11 @@ header {
 }
 
 .main-header-button:hover {
-    background-color: #524b7a;
-    border: solid white 0.1rem;
+    background-color: #f0bb5a;
+}
+
+.main-header-button:active {
+    background-color: #f1b441;
 }
 
 .main-header-button span{
@@ -212,6 +216,10 @@ header {
     font-weight: 700;
     color: white;
     text-shadow: black 0 0 0.05rem;
+}
+
+.main-section{
+    margin-top: 2.5rem;
 }
 
 /*FILAS*/
@@ -280,13 +288,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #746ea0;
+    color: white;
     cursor: pointer;
     height: 3rem;
     width: 100%;
-    border: solid #746ea0 0.2rem;
+    border: none;
     border-radius: 2.5rem;
-    background-color: transparent;
+    background-color: #746ea0;
 }
 
 .button-text {
@@ -296,13 +304,12 @@ header {
 }
 
 .button-addtocart:hover {
-    background-color: #746ea0;
+    background-color: #f0bb5a;
     color: white;
 }
 
 .button-addtocart:active {
-    background-color: #524b7a;
-    border: solid #524b7a 0.2rem;
+    background-color: #f1b441;
 }
 
 
