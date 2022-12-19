@@ -203,11 +203,11 @@ header {
 }
 
 .main-header-button:hover {
-    background-color: #877dc0;
+    background-color: #f0bb5a;
 }
 
 .main-header-button:active {
-    background-color: #6c63a0;
+    background-color: #f1b441;
 }
 
 .main-header-button span{
