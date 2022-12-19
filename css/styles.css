@@ -187,7 +187,7 @@ header {
 
 .main-header-button {
     cursor: pointer;
-    background-color: #6c63a0;
+    background-color: #978fca;
     height: 5rem;
     width: 18rem;
     border-radius: 10rem;
@@ -203,11 +203,11 @@ header {
 }
 
 .main-header-button:hover {
-    background-color: #f0bb5a;
+    background-color: #877dc0;
 }
 
 .main-header-button:active {
-    background-color: #f1b441;
+    background-color: #6c63a0;
 }
 
 .main-header-button span{
@@ -294,7 +294,7 @@ header {
     width: 100%;
     border: none;
     border-radius: 2.5rem;
-    background-color: #746ea0;
+    background-color: #978fca;
 }
 
 .button-text {
